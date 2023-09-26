@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <div class="calculator">
+        <input type="text" id="display" readonly>
+        <div class="buttons">
+            <button onclick="addKey('1')">1</button>
+            <button onclick="addKey('2')">2</button>
+            <button onclick="addKey('3')">3</button>
+            <button onclick="addKey('+')">+</button>
+            <button onclick="addKey('4')">4</button>
+            <button onclick="addKey('5')">5</button>
+            <button onclick="addKey('6')">6</button>
+            <button onclick="addKey('-')">-</button>
+            <button onclick="addKey('7')">7</button>
+            <button onclick="addKey('8')">8</button>
+            <button onclick="addKey('9')">9</button>
+            <button onclick="addKey('*')">*</button>
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="addKey('0')">0</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="addKey('/')">/</button>
+        </div>
+    </div>
+
+    <div class="history">
+        <h2>Historial</h2>
+        <ul id="historyList"></ul>
+        <button onclick="clearHistory()">Borrar</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: indigo;
+}
+
+.calculator {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(150, 69, 69, 0.2);
+    text-align: center;
+}
+
+#display {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    font-size: 24px;
+    text-align: right;
+    border-color: transparent;
+}
+
+.buttons button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.822);
+    color: black;
+    border-radius: 5px;
+    box-shadow: -1px -1px -1px -1px rgba(10, 10, 10, 10);
+}
+
+.history {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c04fc0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.history h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.historyList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.historyList li {
+    margin-bottom: 5px;
+}
+
+.history button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.history button:hover {
+    background-color: #c0392b;
+}
